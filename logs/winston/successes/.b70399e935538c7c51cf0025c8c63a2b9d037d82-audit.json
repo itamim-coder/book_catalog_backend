@@ -1,0 +1,165 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\digital-cow-hut\\logs\\winston\\successes\\.b70399e935538c7c51cf0025c8c63a2b9d037d82-audit.json",
+    "files": [
+        {
+            "date": 1687946921033,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-28-06-16-success.log",
+            "hash": "7f014c568f31c26aaf8990d3dffd9b373fb37efe789c66f5c2c4ea94a0282b0c"
+        },
+        {
+            "date": 1687950614564,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-28-06-17-success.log",
+            "hash": "7abde0cc588700724f587e56c52bd3c3a3bcdd9881a008aa9f6a9c3a9fb9ea47"
+        },
+        {
+            "date": 1687963296578,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-28-06-20-success.log",
+            "hash": "697da461ca0169b3705d68ddf147d1006185d76426bf72ec1e347a1ea7b5068e"
+        },
+        {
+            "date": 1687973277631,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-28-06-23-success.log",
+            "hash": "1a10b94f7e9723ba6ac7a39b14fe678765fba8947f0615ce4a5440ba02e00df2"
+        },
+        {
+            "date": 1687975741746,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-29-06-00-success.log",
+            "hash": "cf61ed2d5dc5ece28caa777ddd0573a73f6ea5d432f3c44471bcb30a5ce7d52f"
+        },
+        {
+            "date": 1687984594547,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-29-06-02-success.log",
+            "hash": "159016445b34e02c463a2ba043b12f5d8c071fda033714d3ff0bf4b21d421b35"
+        },
+        {
+            "date": 1688037750645,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-29-06-17-success.log",
+            "hash": "4c0f5d4b50b9697ecd5f8d6f63f77994c4f62b26d70288b7b897e16d7a480cd5"
+        },
+        {
+            "date": 1688040001867,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-29-06-18-success.log",
+            "hash": "202b95cbfd026bc18300e0c0436d8f1497b953e1db7e0867cdb66ba9d961dad8"
+        },
+        {
+            "date": 1688043639147,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-29-06-19-success.log",
+            "hash": "d9361ddaf45dab6507a3ca6bd266d9955f65341b489e6104b17c90a93e120c7a"
+        },
+        {
+            "date": 1688047465786,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-29-06-20-success.log",
+            "hash": "d9d4b445c922ddaebdd7ae10484658a782405adcdff65bb54208e587eb512c15"
+        },
+        {
+            "date": 1688063041203,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-30-06-00-success.log",
+            "hash": "bec670b13d147e670f502a421672b0d5c86054df3b039e31f405184aa6ff0e5b"
+        },
+        {
+            "date": 1688065879226,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-30-06-01-success.log",
+            "hash": "569c8f668427e99ed60397dbca21086d29503a2d6742772031fe549bbd386fbd"
+        },
+        {
+            "date": 1688069843796,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-30-06-02-success.log",
+            "hash": "773ffa2df17d844383cfe6e592afb7e112faf0e65ebe146c656927277337618d"
+        },
+        {
+            "date": 1688074357041,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-30-06-03-success.log",
+            "hash": "ecf8ded0b1b59361eb836984afaba5186783b53624b2239b6141620b6cdcaf14"
+        },
+        {
+            "date": 1688134986673,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-30-06-20-success.log",
+            "hash": "580d31349f78b088d866e0844c621c45f7e3c44bb6a0a2be5cc529b5bd5a6fc4"
+        },
+        {
+            "date": 1688141496884,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-30-06-22-success.log",
+            "hash": "e97b6819ce51ccfd19884d479b5d6b4c5fb02bba9a92509c69cd42c4b8d07210"
+        },
+        {
+            "date": 1688146014449,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-30-06-23-success.log",
+            "hash": "8365d0c7a14b6cb2a6b762c713f73e294d1412257fed8c1b0ec4ff74bb7ecc5f"
+        },
+        {
+            "date": 1688150390259,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-01-07-00-success.log",
+            "hash": "340619cb2e4cef70b75a2b7c99d80eed15dbbea89de420bdb223f33078359064"
+        },
+        {
+            "date": 1688161290617,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-01-07-03-success.log",
+            "hash": "673f7a21e07a49351864ab7400d65d9fb0cef0568ea2d1b97b301e9d41bcd6fa"
+        },
+        {
+            "date": 1688199116913,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-01-07-14-success.log",
+            "hash": "3c3ce46e7504b2d08ab08fe1f14f70ad1d32a003ba446be0589223bd382fdf79"
+        },
+        {
+            "date": 1688284301846,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-02-07-13-success.log",
+            "hash": "0eb7daf096d5591a950a84f243d626634583973f8049feb439991359c426eee4"
+        },
+        {
+            "date": 1688284971314,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-02-07-14-success.log",
+            "hash": "d29d7cff93f827a9a5f57cf09a7f5b35b10616de86e4426bde40c34cb185475f"
+        },
+        {
+            "date": 1688297320136,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-02-07-17-success.log",
+            "hash": "7562db5302a1936177e8d06b0506b692b3f954e4598accd659a396a18ccec657"
+        },
+        {
+            "date": 1688300310606,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-02-07-18-success.log",
+            "hash": "97d389b5d5261e40d804778ddbe9eccff4a459ecfd5ba73ded1f4a148a9b8ff7"
+        },
+        {
+            "date": 1688302851808,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-02-07-19-success.log",
+            "hash": "c6c1446f40c8bf253bde43b47a0f8ff364b0429184d380b0d7ba8f79d7ce8d51"
+        },
+        {
+            "date": 1688307500442,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-02-07-20-success.log",
+            "hash": "4cdf2ea0d769ba181f5c78bce5af84b30f7a85d26fa95d21f785a42b6838f049"
+        },
+        {
+            "date": 1688311420418,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-02-07-21-success.log",
+            "hash": "dd6055a49e6b0b0e6673ed96d1d931b1b35d201d96f38c54c2fcacde9b7f91e7"
+        },
+        {
+            "date": 1688318977167,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-02-07-23-success.log",
+            "hash": "9e9d7669f720bf3c649cbf386884faf4019e4916a11d7abd5c8f78fa1602c2b6"
+        },
+        {
+            "date": 1688320849883,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-03-07-00-success.log",
+            "hash": "0b0f0de76f0e71bb6d4388265f0daec6ace3d5871aac4d9ebd52c1bf1e68e0c4"
+        },
+        {
+            "date": 1688325326679,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-03-07-01-success.log",
+            "hash": "daf3b3b8fa0e17ffa49c77e85e1b9ad808be5176e2225c872305a0d8f35fdde3"
+        },
+        {
+            "date": 1688328779547,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\successes\\CWH-2023-03-07-02-success.log",
+            "hash": "5daef8bf181d916e38f3a70dd1d6e0a929cf2005a3272e2789e0912cc0d3b52d"
+        }
+    ],
+    "hashType": "sha256"
+}

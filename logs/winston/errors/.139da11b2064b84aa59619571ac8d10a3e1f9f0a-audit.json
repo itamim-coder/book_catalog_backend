@@ -1,0 +1,165 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\digital-cow-hut\\logs\\winston\\errors\\.139da11b2064b84aa59619571ac8d10a3e1f9f0a-audit.json",
+    "files": [
+        {
+            "date": 1687946943362,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-28-06-16-error.log",
+            "hash": "b1485d059a885831f670ace729a8240c5e96a2b69a95f4ea1108eae2961ea541"
+        },
+        {
+            "date": 1687950614569,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-28-06-17-error.log",
+            "hash": "6d567ab02b1e887e31e6506282ae613a27873e78e0dce29b1f68271ac2c0e33e"
+        },
+        {
+            "date": 1687963296589,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-28-06-20-error.log",
+            "hash": "909ba76bf47545939f88483f7df681b73c8ade796f96661091f8913f5207e2c6"
+        },
+        {
+            "date": 1687973277639,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-28-06-23-error.log",
+            "hash": "6846eeb4dbc8c87a9b4729053abfcf73814a652cc74c228b1247244f97a98773"
+        },
+        {
+            "date": 1687975741755,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-29-06-00-error.log",
+            "hash": "a1b3fc1ec1505ced39dd827e5c37ae2bf1095b79ec3a0e2de7b3fba7b402a884"
+        },
+        {
+            "date": 1687984594564,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-29-06-02-error.log",
+            "hash": "fadae7fb15ebdfc9b7776924a68f186fdbcf8d292bbe78f18e3971d531c2a6cf"
+        },
+        {
+            "date": 1688037750654,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-29-06-17-error.log",
+            "hash": "fd504a6212711412eae23246f47ee044e33cbeb9a34ab77b433b980500e0ad5a"
+        },
+        {
+            "date": 1688040023603,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-29-06-18-error.log",
+            "hash": "5873e818887918624ca1769dd63d240315e6623b543b4dbf7c75e245449bd398"
+        },
+        {
+            "date": 1688043639155,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-29-06-19-error.log",
+            "hash": "b7b9407fd71672c49881bc63392fcbe41a085fa156ef348bebcb97dccb62cf95"
+        },
+        {
+            "date": 1688047465794,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-29-06-20-error.log",
+            "hash": "405f85d30493f36e86c6f3de60de0bc902627af306b6997653a15d5e2e4ee992"
+        },
+        {
+            "date": 1688063041214,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-30-06-00-error.log",
+            "hash": "17df86ff00538389819ce0cb66ca154dd5ddfe9e67636e4be17f49ff6bc5eddc"
+        },
+        {
+            "date": 1688065879236,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-30-06-01-error.log",
+            "hash": "c74dde76f2afccb88c86181a291d9517fa76e3d65c1a9cce022bbf30252ed0f4"
+        },
+        {
+            "date": 1688069843811,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-30-06-02-error.log",
+            "hash": "d5a6999531a39fa2539ff4a7d5222cd034b9ac36544e47bcd3be6039a145644b"
+        },
+        {
+            "date": 1688074357047,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-30-06-03-error.log",
+            "hash": "5b53bb728a1be43128974d0c348599ed78afcc286ba8a984edb10875cf9b1e6d"
+        },
+        {
+            "date": 1688134986681,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-30-06-20-error.log",
+            "hash": "94418ed7e99c933d8de28a93e2799b5979094df54db22b1b52df3548eccfc878"
+        },
+        {
+            "date": 1688141496893,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-30-06-22-error.log",
+            "hash": "40531bf4466c523f2540335bad130c50f6fa1bfe568a20f9da4b8fe312a74c14"
+        },
+        {
+            "date": 1688146014462,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-30-06-23-error.log",
+            "hash": "930846bd66c8460e807271515c90a6cf94929b0bcd9ff0d3da91f0b59a334a8a"
+        },
+        {
+            "date": 1688150390284,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-01-07-00-error.log",
+            "hash": "cfe66a3b6f7df2827fb61f2286bddc21bfe381c21af9220a733b9e0f657fe594"
+        },
+        {
+            "date": 1688161290628,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-01-07-03-error.log",
+            "hash": "02985a88328f34d73980be4231aa9d77d8fd45278108a98833a9a0dc54ced076"
+        },
+        {
+            "date": 1688199116924,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-01-07-14-error.log",
+            "hash": "1051e1cab7460101a7a7821dad6b52f72078f601654c6f8018aed3b1ae8be088"
+        },
+        {
+            "date": 1688284301857,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-02-07-13-error.log",
+            "hash": "07372c86a8957cfd3dfe27b09535238558336a819b6849c3c34f68f248a1178f"
+        },
+        {
+            "date": 1688284971322,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-02-07-14-error.log",
+            "hash": "bd1ab43dbc8e4185ebf2f6ff97ac547f4885b332c604eea4d460d6c4d6b68bb0"
+        },
+        {
+            "date": 1688297320145,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-02-07-17-error.log",
+            "hash": "751ba3b11e590573258264475f42b91794dc76aae1d49e59fb4cbdebf69631e0"
+        },
+        {
+            "date": 1688300310616,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-02-07-18-error.log",
+            "hash": "7e05fdfee9572497c20eaefbab6f137664ff12a30946ddeae9be71fdc6716623"
+        },
+        {
+            "date": 1688302851822,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-02-07-19-error.log",
+            "hash": "edb3bf5088850ff03a4e833d9c5db108a26e08206ed86f31923491813371b28e"
+        },
+        {
+            "date": 1688307500451,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-02-07-20-error.log",
+            "hash": "597498aed3c76dae0e625c28d83116d483f90f85ff6010e11df632bbac9c4ef3"
+        },
+        {
+            "date": 1688311420425,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-02-07-21-error.log",
+            "hash": "97e8b50443de436068fa8c6b5eb90d26b7eb431fa4916b80197cce269177236c"
+        },
+        {
+            "date": 1688318977174,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-02-07-23-error.log",
+            "hash": "6220b97e62b2f51f772a8ea986a1d247008b18d466fbad601981761b7d6cee76"
+        },
+        {
+            "date": 1688320849891,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-03-07-00-error.log",
+            "hash": "1fba1c47176036ef712df981510de2968d467e939ed60a0463c34c3e96b46af4"
+        },
+        {
+            "date": 1688325326693,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-03-07-01-error.log",
+            "hash": "db45fdde7a2ae474c02bfe1a01429d0e313c69429a7a002ad370e7162cd83e06"
+        },
+        {
+            "date": 1688328779573,
+            "name": "C:\\digital-cow-hut\\logs\\winston\\errors\\CWH-2023-03-07-02-error.log",
+            "hash": "c78d1205bca4ea35800ecf58e16e9b853cbed156f10e697eead1dc44753a5680"
+        }
+    ],
+    "hashType": "sha256"
+}
