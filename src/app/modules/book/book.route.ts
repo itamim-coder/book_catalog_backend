@@ -1,24 +1,25 @@
 import express from 'express'
 import validateRequest from '../../middlewares/validateRequest'
-
+import { BookValidation } from './book.validation'
+import { BookController } from './book.controller'
 
 const router = express.Router()
 
-// router.get('/:id', CowController.getSingleCow)
-// router.post(
-//   '',
-//   validateRequest(CowValidation.createCowZodSchema),
-//   CowController.createCow
-// )
+router.get('/:id', BookController.getSingleBook)
+router.post(
+  '',
+  validateRequest(BookValidation.createBookZodSchema),
+  BookController.createBook
+)
 
-// router.get('', CowController.getAllCows)
+router.get('', BookController.getAllBooks)
 
-// router.delete('/:id', CowController.deleteCow)
+router.delete('/:id', BookController.deleteBook)
 
-// router.patch(
-//   '/:id',
-//   validateRequest(CowValidation.updateCowZodSchema),
-//   CowController.updateCow
-// )
+router.patch(
+  '/:id',
+  validateRequest(BookValidation.updateBookZodSchema),
+  BookController.updateBook
+)
 
 export const BookRoutes = router

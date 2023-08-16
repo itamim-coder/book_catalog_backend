@@ -14,6 +14,16 @@
             "date": 1692133788940,
             "name": "C:\\Projects\\book_catalog_backend\\logs\\winston\\successes\\CWH-2023-16-08-03-success.log",
             "hash": "ddedd1831a211d7e37336771eaf54f94946d70de5c11a46c142022585fab6720"
+        },
+        {
+            "date": 1692136891509,
+            "name": "C:\\Projects\\book_catalog_backend\\logs\\winston\\successes\\CWH-2023-16-08-04-success.log",
+            "hash": "75b1d28ab3801c1647d5692c85ead279d8c7ae9357f5975f2649d33fdf72f9b1"
+        },
+        {
+            "date": 1692177149638,
+            "name": "C:\\Projects\\book_catalog_backend\\logs\\winston\\successes\\CWH-2023-16-08-15-success.log",
+            "hash": "5d33945788f1fcff1eefa0fd484620c34195d184ae14d793db146fcf14064c63"
         }
     ],
     "hashType": "sha256"
