@@ -1,3 +1,4 @@
+import { IReview } from './book.interface'
 /* eslint-disable no-console */
 import { IBook } from './Book.interface'
 import { Request, Response } from 'express'
@@ -38,7 +39,6 @@ const getAllBooks = catchAsync(async (req: Request, res: Response) => {
   })
 })
 
-
 const getSingleBook = catchAsync(async (req: Request, res: Response) => {
   const id = req.params.id
 
@@ -65,6 +65,34 @@ const updateBook = catchAsync(async (req: Request, res: Response) => {
     data: result,
   })
 })
+
+const reviewBook = catchAsync(async (req: Request, res: Response) => {
+  const bookId = req.params.id
+  const review = req.body.review
+
+  const result = await BookService.reviewBook(bookId, review)
+  console.log(result)
+  sendResponse<string>(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Book review successfully !',
+    data: result,
+  })
+})
+
+const getBookReview = catchAsync(async (req: Request, res: Response) => {
+  const bookId = req.params.id
+
+  const result = await BookService.getBookReview(bookId)
+
+  sendResponse<any>(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Book Review retrieved successfully !',
+    data: result,
+  })
+})
+
 const deleteBook = catchAsync(async (req: Request, res: Response) => {
   const id = req.params.id
 
@@ -81,7 +109,9 @@ const deleteBook = catchAsync(async (req: Request, res: Response) => {
 export const BookController = {
   createBook,
   getAllBooks,
-    getSingleBook,
-    deleteBook,
-    updateBook,
+  getSingleBook,
+  deleteBook,
+  updateBook,
+  reviewBook,
+  getBookReview,
 }

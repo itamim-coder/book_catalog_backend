@@ -1,7 +1,8 @@
+/* eslint-disable no-console */
 import httpStatus from 'http-status'
 
 import ApiError from '../../../errors/ApiError'
-import { IBook } from './book.interface'
+import { IBook, IReview } from './book.interface'
 import { Book } from './book.model'
 import { IPaginationOptions } from '../../../interfaces/pagination'
 import { IGenericResponse } from '../../../interfaces/common'
@@ -20,15 +21,12 @@ const createBook = async (book: IBook): Promise<IBook | null> => {
   }
 }
 
-const getAllBooks = async (
- 
-  paginationOptions: IPaginationOptions
-): Promise<IGenericResponse<IBook[]>> => {
+const getAllBooks = async (): // paginationOptions: IPaginationOptions
+Promise<IGenericResponse<IBook[]>> => {
+  // const { page, limit, skip, sortBy, sortOrder } =
+  //   paginationHelpers.calculatePagination(paginationOptions)
 
-  const { page, limit, skip, sortBy, sortOrder } =
-    paginationHelpers.calculatePagination(paginationOptions)
-
-  const andConditions: string | any[] = []
+  // const andConditions: string | any[] = []
 
   // if (searchTerm) {
   //   andConditions.push({
@@ -41,7 +39,6 @@ const getAllBooks = async (
   //   })
   // }
 
-
   // if (Object.keys(filtersData).length) {
   //   andConditions.push({
   //     $and: Object.entries(filtersData).map(([field, value]) => ({
@@ -50,33 +47,24 @@ const getAllBooks = async (
   //   })
   // }
 
-  const sortConditions: { [key: string]: SortOrder } = {}
+  // const sortConditions: { [key: string]: SortOrder } = {}
 
-  if (sortBy && sortOrder) {
-    sortConditions[sortBy] = sortOrder
-  }
-  const whereConditions =
-    andConditions.length > 0 ? { $and: andConditions } : {}
+  // if (sortBy && sortOrder) {
+  //   sortConditions[sortBy] = sortOrder
+  // }
+  // const whereConditions =
+  //   andConditions.length > 0 ? { $and: andConditions } : {}
 
-  const result = await Book.find(whereConditions)
+  const result = await Book.find({})
 
-    .sort(sortConditions)
-    .skip(skip)
-    .limit(limit)
-
-  const total = await Book.countDocuments(whereConditions)
+  // .sort(sortConditions)
+  // .skip(skip)
+  // .limit(limit)
 
   return {
-    meta: {
-      page,
-      limit,
-      total,
-    },
     data: result,
   }
-
 }
-
 
 const getSingleBook = async (_id: string): Promise<IBook | null> => {
   const result = await Book.findOne({ _id })
@@ -109,6 +97,33 @@ const updateBook = async (
   })
   return result
 }
+const reviewBook = async (
+  _id: string,
+  payload: string
+): Promise<any | null> => {
+  const isExist = await Book.findOne({ _id })
+
+  if (!isExist) {
+    throw new ApiError(httpStatus.NOT_FOUND, 'Book not found !')
+  }
+
+  const { review } = payload
+  console.log(payload)
+  const result = await Book.updateOne(
+    { _id: isExist._id },
+    { $push: { reviews: payload } }
+  )
+  // eslint-disable-next-line no-console
+  console.log(result)
+  return result
+}
+
+const getBookReview = async (_id: string): Promise<any | null> => {
+  const result = await Book.findOne({ _id: _id }, { _id: 0, reviews: 1 })
+  console.log(result)
+
+  return result
+}
 
 export const BookService = {
   createBook,
@@ -116,4 +131,6 @@ export const BookService = {
   getSingleBook,
   deleteBook,
   updateBook,
+  reviewBook,
+  getBookReview,
 }
