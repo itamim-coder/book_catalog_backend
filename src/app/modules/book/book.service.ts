@@ -120,7 +120,6 @@ const reviewBook = async (
 
 const getBookReview = async (_id: string): Promise<any | null> => {
   const result = await Book.findOne({ _id: _id }, { _id: 0, reviews: 1 })
-  console.log(result)
 
   return result
 }

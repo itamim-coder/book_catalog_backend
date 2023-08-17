@@ -54,6 +54,11 @@
             "date": 1692285170177,
             "name": "C:\\Projects\\book_catalog_backend\\logs\\winston\\successes\\CWH-2023-17-08-21-success.log",
             "hash": "26ff6b8c7b5eacb31c05a50758cf7f937c320dd596ba77c6e47be629bcc6b12e"
+        },
+        {
+            "date": 1692302064990,
+            "name": "C:\\Projects\\book_catalog_backend\\logs\\winston\\successes\\CWH-2023-18-08-01-success.log",
+            "hash": "50c1e45c31c3423d846fc47fc4b61e2b900039ec77b664347ab07e1733cc333f"
         }
     ],
     "hashType": "sha256"
