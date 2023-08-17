@@ -1,4 +1,4 @@
-Thu Jun 29 2023 0:9:4 [Cow_Hut] info: 🛢   Database is connected successfully
-Thu Jun 29 2023 0:9:4 [Cow_Hut] info: Application  listening on port 5000
-Thu Jun 29 2023 0:49:26 [Cow_Hut] info: 🛢   Database is connected successfully
-Thu Jun 29 2023 0:49:26 [Cow_Hut] info: Application  listening on port 5000
+Thu Jun 29 2023 0:9:4 [Cow_Hut] log: 🛢   Database is connected successfully
+Thu Jun 29 2023 0:9:4 [Cow_Hut] log: Application  listening on port 5000
+Thu Jun 29 2023 0:49:26 [Cow_Hut] log: 🛢   Database is connected successfully
+Thu Jun 29 2023 0:49:26 [Cow_Hut] log: Application  listening on port 5000

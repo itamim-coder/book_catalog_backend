@@ -6,7 +6,6 @@ import config from '../../config'
 import ApiError from '../../errors/ApiError'
 import handleValidationError from '../../errors/handleValidationError'
 
-
 import { IGenericErrorMessage } from '../../interfaces/error'
 import { errorlog } from '../../shared/logger'
 import { ZodError } from 'zod'
@@ -21,7 +20,7 @@ const globalErrorHandler: ErrorRequestHandler = (
 ) => {
   config.env === 'development'
     ? console.log(`🐱‍🏍 globalErrorHandler ~~`, error)
-    : errorlog.error(`🐱‍🏍 globalErrorHandler ~~`, error)
+    : console.log(`🐱‍🏍 globalErrorHandler ~~`, error)
 
   let statusCode = 500
   let message = 'Something went wrong !'
@@ -49,10 +48,10 @@ const globalErrorHandler: ErrorRequestHandler = (
         ]
       : []
   } else if (error?.name === 'CastError') {
-    const simplifiedError = handleCastError(error);
-    statusCode = simplifiedError.statusCode;
-    message = simplifiedError.message;
-    errorMessages = simplifiedError.errorMessages;
+    const simplifiedError = handleCastError(error)
+    statusCode = simplifiedError.statusCode
+    message = simplifiedError.message
+    errorMessages = simplifiedError.errorMessages
   } else if (error instanceof Error) {
     message = error?.message
     errorMessages = error?.message

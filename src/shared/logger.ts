@@ -13,7 +13,7 @@ const myFormat = printf(({ level, message, label, timestamp }) => {
 
 const logger = createLogger({
   level: 'info',
-  format: combine(label({ label: 'Cow_Hut' }), timestamp(), myFormat),
+  format: combine(label({ label: 'Book_Catalog' }), timestamp(), myFormat),
 
   transports: [
     new transports.Console(),
@@ -36,7 +36,7 @@ const logger = createLogger({
 
 const errorlog = createLogger({
   level: 'error',
-  format: combine(label({ label: 'Cow_Hut' }), timestamp(), myFormat),
+  format: combine(label({ label: 'Book_Catealog' }), timestamp(), myFormat),
 
   transports: [
     new transports.Console(),

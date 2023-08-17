@@ -1,1 +1,1 @@
-Wed Aug 16 2023 2:56:26 [Cow_Hut] error: Failed to connect database The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+Wed Aug 16 2023 2:56:26 [Cow_Hut] log: Failed to connect database The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.

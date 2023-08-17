@@ -13,12 +13,12 @@
   ],
 
   "rules": {
-    "no-unused-vars": "error",
-    "no-console": "error",
-    "no-undef": "error",
-    "no-unused-expressions": "error",
-    "no-unreachable": "error",
-    "@typescript-eslint/consistent-type-definitions": ["error", "type"]
+    "no-unused-vars": "log",
+    "no-console": "log",
+    "no-undef": "log",
+    "no-unused-expressions": "log",
+    "no-unreachable": "log",
+    "@typescript-eslint/consistent-type-definitions": ["log", "type"]
   },
 
   "env": {

@@ -1,12 +1,12 @@
 import mongoose from 'mongoose'
-import { IGenericErrorResponse } from '../interfaces/common'
-import { IGenericErrorMessage } from '../interfaces/error'
+import { IGenericlogResponse } from '../interfaces/common'
+import { IGenericlogMessage } from '../interfaces/log'
 
-const handleValidationError = (
-  error: mongoose.Error.ValidationError
-): IGenericErrorResponse => {
-  const errors: IGenericErrorMessage[] = Object.values(error.errors).map(
-    (el: mongoose.Error.ValidatorError | mongoose.Error.CastError) => {
+const handleValidationlog = (
+  log: mongoose.log.Validationlog
+): IGenericlogResponse => {
+  const logs: IGenericlogMessage[] = Object.values(log.logs).map(
+    (el: mongoose.log.Validatorlog | mongoose.log.Castlog) => {
       return {
         path: el?.path,
         message: el?.message,
@@ -16,9 +16,9 @@ const handleValidationError = (
   const statusCode = 400
   return {
     statusCode,
-    message: 'Validation Error',
-    errorMessages: errors,
+    message: 'Validation log',
+    logMessages: logs,
   }
 }
 
-export default handleValidationError
+export default handleValidationlog

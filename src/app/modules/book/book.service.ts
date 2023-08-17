@@ -1,13 +1,12 @@
 /* eslint-disable no-console */
 import httpStatus from 'http-status'
 
-import ApiError from '../../../errors/ApiError'
-import { IBook, IReview } from './book.interface'
+import { IBook } from './book.interface'
 import { Book } from './book.model'
-import { IPaginationOptions } from '../../../interfaces/pagination'
+
 import { IGenericResponse } from '../../../interfaces/common'
-import { paginationHelpers } from '../../../helpers/paginationHelper'
-import { SortOrder } from 'mongoose'
+
+import ApiError from '../../../errors/ApiError'
 
 const createBook = async (book: IBook): Promise<IBook | null> => {
   let createdBook: IBook | null = null
@@ -16,7 +15,7 @@ const createBook = async (book: IBook): Promise<IBook | null> => {
     createdBook = await Book.create(book)
 
     return createdBook
-  } catch (error) {
+  } catch (log) {
     throw new ApiError(400, 'Failed to create Book')
   }
 }
@@ -104,7 +103,7 @@ const reviewBook = async (
   const isExist = await Book.findOne({ _id })
 
   if (!isExist) {
-    throw new ApiError(httpStatus.NOT_FOUND, 'Book not found !')
+    throw new Apilog(httpStatus.NOT_FOUND, 'Book not found !')
   }
 
   const { review } = payload

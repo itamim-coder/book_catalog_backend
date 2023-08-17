@@ -1,7 +1,6 @@
 import express, { Application, NextFunction, Request, Response } from 'express'
 import cors from 'cors'
-import { UserRoutes } from './app/modules/user/users.route'
-// import ApiError from './errors/ApiError'
+import ApiError from './errors/ApiError'
 import globalErrorHandler from './app/middlewares/globalErrorHandler'
 import routes from './routes'
 import httpStatus from 'http-status'
